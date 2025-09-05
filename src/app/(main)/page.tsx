@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -13,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Bot, BrainCircuit, CloudSun, ScanSearch, Spade } from "lucide-react";
 import { useLanguage } from "@/contexts/language-context";
 import { translations } from "@/lib/i18n";
+import { Footer } from "@/components/footer"; // Added import
 
 export default function Dashboard() {
   const { language } = useLanguage();
@@ -142,6 +142,9 @@ export default function Dashboard() {
           </CardContent>
         </Card>
       </div>
+      
+      {/* Footer added here */}
+      <Footer />
     </div>
   );
 }
