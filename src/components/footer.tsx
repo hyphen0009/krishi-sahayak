@@ -18,7 +18,7 @@ export function Footer() {
             <h4 className="font-medium mb-4">Connect with me</h4>
             <div className="flex space-x-4">
               <Link 
-                href="https://twitter.com/login" 
+                href="https://x.com/ZaidIma43961735?t=ycRzE2wkCHbQysdjFVMX-A&s=09" 
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full border border-border hover:border-primary"
                 title="Twitter"
@@ -26,7 +26,7 @@ export function Footer() {
                 <Twitter className="h-5 w-5" />
               </Link>
               <Link 
-                href="https://linkedin.com/in/login" 
+                href="https://linkedin.com/" 
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full border border-border hover:border-primary"
                 title="LinkedIn"
@@ -34,7 +34,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </Link>
               <Link 
-                href="https://github.com/hyphen009" 
+                href="https://github.com/hyphen0009" 
                 target="_blank"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full border border-border hover:border-primary"
                 title="GitHub"
