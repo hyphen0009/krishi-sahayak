@@ -5,14 +5,14 @@ An AI-powered agricultural assistant for farmers
 KrishiSahayak helps farmers make better decisions through AI-driven crop recommendations, pest & disease detection, soil health insights, and a multilingual chatbot. Designed for accessibility, it empowers farmers with timely, localized, and easy-to-understand agricultural guidance.
 
 
----
+
 
 🚜 Problem
 
 Farmers often struggle with crop planning, pest management, and soil health due to limited access to expert and localized advice. This leads to reduced yields and inefficient resource use.
 
 
----
+
 
 💡 Solution
 
@@ -29,10 +29,10 @@ Multilingual Chatbot – Ask questions and get simple, AI-powered answers.
 Mobile-Friendly Dashboard – Accessible anytime, anywhere.
 
 
-Powered by Next.js, TypeScript, Tailwind CSS, Shadcn UI, and OpenAI APIs, it delivers real-time, farmer-friendly support.
+Powered by Next.js, TypeScript, Tailwind CSS, Shadcn UI, and OpenAI APIs (including Gemini), it delivers real-time, farmer-friendly support.
 
 
----
+
 
 🛠️ Tech Stack
 
@@ -46,25 +46,25 @@ Deployment: Firebase Hosting (example config included)
 
 
 
----
+
 
 🚀 Execution & Scaling Plan
 
-1. MVP: Launch with core features (crop advisor, pest detection, chatbot).
+1. MVP – Launch with core features (crop advisor, pest detection, chatbot).
 
 
-2. Localization: Add multilingual and regional support with weather/soil data.
+2. Localization – Add multilingual and regional support with weather/soil data.
 
 
-3. Enhancements: Introduce voice interaction and real-time alerts.
+3. Enhancements – Introduce voice interaction and real-time alerts.
 
 
-4. Scaling: Optimize AI usage, expand to more crops/regions, and partner with agricultural agencies.
+4. Scaling – Optimize AI usage, expand to more crops/regions, and partner with agricultural agencies.
 
 
 
 
----
+
 
 📂 Repository Structure
 
@@ -83,7 +83,8 @@ Deployment: Firebase Hosting (example config included)
 ├── package.json       # Dependencies & scripts
 └── apphosting.yaml    # Firebase Hosting config
 
----
+
+
 
 ⚡ Getting Started
 
@@ -109,7 +110,7 @@ pnpm dev
 Open http://localhost:3000 in your browser.
 
 
----
+
 
 🌍 Roadmap
 
@@ -125,14 +126,15 @@ Open http://localhost:3000 in your browser.
 
 
 
----
+
 
 🤝 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
 
+
+
 🙏 Acknowledgments
 
-This project was created with the support of AI tools including ChatGPT, DeepSeek, Blackbox, and Claude, which assisted in code generation, documentation, and development guidance.
-
+This project was created with the support of AI tools including ChatGPT, DeepSeek, Blackbox, Claude, and Gemini, which assisted in code generation, documentation, and development guidance.
