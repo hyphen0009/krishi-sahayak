@@ -68,13 +68,20 @@ Deployment: Firebase Hosting (example config included)
 
 📂 Repository Structure
 
-src/
- ├── ai/flows/              # AI logic (crop advice, pest detection, chatbot)
- ├── app/(main)/            # Next.js app pages
- ├── components/ui/         # Reusable Shadcn UI components
- ├── context/               # Language and global state
- └── hooks/                 # Custom hooks (e.g., mobile detection)
-
+├── docs/              # Project documentation & design blueprint
+├── src/               # Core application source
+│   ├── ai/            # AI pipelines (crop advisor, pest detection, chatbot)
+│   ├── app/           # Next.js App Router pages & layouts
+│   ├── components/    # Reusable UI (Shadcn primitives + custom layout)
+│   ├── contexts/      # Global React contexts (e.g., language provider)
+│   ├── hooks/         # Custom React hooks (mobile, toast, etc.)
+│   └── lib/           # Utilities & i18n helpers
+├── public/            # Static assets (icons, favicon)
+├── tailwind.config.ts # Tailwind CSS configuration
+├── tsconfig.json      # TypeScript configuration
+├── next.config.ts     # Next.js configuration
+├── package.json       # Dependencies & scripts
+└── apphosting.yaml    # Firebase Hosting config
 
 ---
 
@@ -124,4 +131,8 @@ Open http://localhost:3000 in your browser.
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
+
+🙏 Acknowledgments
+
+This project was created with the support of AI tools including ChatGPT, DeepSeek, Blackbox, and Claude, which assisted in code generation, documentation, and development guidance.
 
